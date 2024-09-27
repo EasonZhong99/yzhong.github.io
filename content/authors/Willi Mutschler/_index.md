@@ -6,21 +6,19 @@ title: Yisheng Zhong
 superuser: true
 
 # Role/position/tagline
-role: 'Assistant Professor for International Macroeconomics<br/>Member of Dynare Team'
+role: 'PhD student of George Mason University<br/>Member of SPARK Lab'
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: 'School of Business and Economics'
-    url: https://uni-tuebingen.de/en/34644
-  - name: 'University of Tuebingen'
+  - name: 'Department of Cyber Security Engineering'
+    url: https://cybersecurity.gmu.edu/
+  - name: 'University of George Mason University'
     url: https://uni-tuebingen.de/en/
-  - name: DFG Project 411754673
-    url: https://gepris.dfg.de/gepris/projekt/411754673?language=en
-  - name: Dynare Team
+  - name: SPARK Lab
     url: https://www.dynare.org/about
 
 # Short bio (displayed in user profile at end of posts)
-bio: Willi Mutschler is an Assistant Professor for International Macroeconomics at University of Tübingen.
+bio: Yisheng Zhong is a PhD student for Department of Cyber Security at George Mason University.
 
 # Interests to show in About widget
 interests:
