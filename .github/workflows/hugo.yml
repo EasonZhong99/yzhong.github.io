@@ -41,7 +41,7 @@ jobs:
       # 更新 wowchemy 主题模块
       - name: Update wowchemy theme modules
         run: |
-          hugo mod get -u github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5@v5.6.0
+          hugo mod get -u github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5@v5.9.0
           hugo mod tidy
 
       - name: Setup Pages
@@ -59,6 +59,14 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # 调试输出内容结构
+      - name: Debug Content
+        run: |
+          echo "Current Directory:"
+          pwd
+          echo "Content Files:"
+          ls -R content
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
